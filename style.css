@@ -5,6 +5,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #f3f1ff;
+    margin: 0;
+    padding: 0;
 
 }
 main{
@@ -125,6 +127,32 @@ hr{
    background-color: lightcoral;
    border-radius: 20px;
     padding: 5px 10px;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #562Eff;
+    align-items: center;
+
+}
+.nav-logo{
+   
+}
+.nav-logo img{
+    height: 70px;
+    width: 70px;
+
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+
+}
+.nav-item a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
 }
 /*-------------------
  media Queries start
